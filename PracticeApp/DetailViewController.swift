@@ -20,6 +20,12 @@ class DetailViewController: UIViewController {
                 label.text = detail.timestamp!.description
             }
         }
+        
+//        if let detail = detailItem {
+//            if let label = detailDescriptionLabel {
+//                label.text = detail.timestamp!.description
+//            }
+//        }
     }
 
     override func viewDidLoad() {
